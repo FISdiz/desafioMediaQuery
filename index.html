@@ -1,11 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio MediaQuery</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio media Query</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <body>
+        <div class="grid-container">
+
+            <!-- Sección: Menú de navegación (solo en mobile) -->
+            <nav class="nav">
+                <div class="logo">FF Magic</div>
+                <span class="material-icons menu-icon">menu</span>
+            </nav>
+
+            <!-- Sección: Sidebar (solo en desktop) -->
+            <aside class="sidebar">
+                <div class="logo-desktop">FF Magic</div>
+                <ul>
+                    <li>Filtros</li>
+                    <li>Color</li>
+                    <li>Rareza</li>
+                    <li>Precio</li>
+                </ul>
+            </aside>
+
+            <!-- Sección: Principal -->
+            <main class="main">
+                <div class="product-card">
+                    <img src="./assets/images/Cloud-Planets-Champion.webp" alt="Cloud, Planet's Champion">
+                    <h3>Cloud, Planet's Champion</h3>
+                    <p class="rarity">Rareza: Mítica</p>
+                    <p class="price">$14.990</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/stiltzkin.webp" alt="Cloud, Planet's Champion">
+                    <h3>Stiltzkin, Moogle Merchant</h3>
+                    <p class="rarity">Rareza: Rara</p>
+                    <p class="price">$4.990</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+                <div class="product-card">
+                    <img src="./assets/images/ultima.webp" alt="Cloud, Planet's Champion">
+                    <h3>Ultima</h3>
+                    <p class="rarity">Rareza: Rara</p>
+                    <p class="price">$9.990</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </main>
+
+            <!-- Sección: Pie de página -->
+            <footer class="footer">
+                <p>© 2025 Desafio media query - MTG FF</p>
+            </footer>
+        </div>
+    </body>
+
 </body>
+
 </html>
